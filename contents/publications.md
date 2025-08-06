@@ -1,9 +1,11 @@
 #### Submitted
 
+-Waiting for update
 [//]: # (- <strong>S. Li</strong>, X. Yang*, A. Cao*, K. Fan, Y. Liu, C. Wang, and Q. Niu. LaNCoR: Label Noise-Contrastive Robust Learning for Seismic Signal Processing with Application to Microseismic Arrival Time Picking. <strong>Rej :&#41;</strong> [[Code]]&#40;https://github.com/senli1073/LaNCor&#41;)
 
 #### Published
 
+-Waiting for update
 [//]: # (- X. Yang, <strong>S. Li</strong>, A. Cao*, C. Wang*, Y. Liu, X. Bai, and Q. Niu &#40;2024&#41;. Deep Transfer Learning for P-wave Arrival Identification and Automatic Seismic Source Location in Underground Mines. <strong>International Journal of Rock Mechanics and Mining Sciences</strong>. [[Paper]]&#40;https://doi.org/10.1016/j.ijrmms.2024.105888&#41;)
 
 [//]: # ()
