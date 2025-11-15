@@ -1,6 +1,6 @@
 #### Submitted
 
-- A paper has been accepted for oral presentation at AAAI 2026 (non-first author)
+- A paper has been accepted for <strong>Oral</strong> presentation at <strong>AAAI 2026</strong> (non-first author)
 
 #### Published
 
