@@ -4,6 +4,6 @@
 
 #### Published
 - Yanmin Li*, Lihua Liu*, Xin Wang, <strong>Zhilong Mao</strong>, Jibing Wu, Weidong Bao &#40;2026&#41;. A Causal Target for Learning to Defer
-under Hidden Confounding. <strong>AAAI 2026</strong>. [[Code]](https://github.com/JustinLiam/CTLD)
+under Hidden Confounding. <strong>AAAI 2026 (Oral)</strong>. [[Code]](https://github.com/JustinLiam/CTLD)
 
 
