@@ -1,0 +1,22 @@
+main:
+
+  - title: A Causal Target for Learning to Defer under Hidden Confounding
+    authors: Yanmin Li*, Lihua Liu*, Xin Wang, <strong>Zhilong Mao</strong>, Jibing Wu, Weidong Bao
+    conference_short: AAAI
+    conference: Association for the Advancement of Artificial Intelligence <strong>(AAAI)</strong>, 2026.
+    pdf: https://ojs.aaai.org/index.php/AAAI/article/view/39493/43454
+    code: https://github.com/MrGiovanni/ContinualLearning
+    bibtex: https://ojs.aaai.org/index.php/AAAI/citationstylelanguage/download/bibtex?submissionId=39493&publicationId=37751
+    image: ./assets/img/paper1_overall.png
+    notes: Oral Presentation
+
+#  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
+#    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+#    conference_short: CVPR
+#    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
+#    pdf: https://arxiv.org/pdf/2002.10211.pdf
+#    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+#    page: https://class-il.mpi-inf.mpg.de/mnemonics/
+#    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+#    notes: Oral Presentation/Early Accept
+#    image: ./assets/img/teaser_example.png
