@@ -5,7 +5,7 @@ main:
     conference_short: AAAI
     conference: Association for the Advancement of Artificial Intelligence <strong>(AAAI)</strong>, 2026.
     pdf: https://ojs.aaai.org/index.php/AAAI/article/view/39493/43454
-    code: https://github.com/MrGiovanni/ContinualLearning
+    code: https://github.com/JustinLiam/CTLD
     bibtex: https://ojs.aaai.org/index.php/AAAI/citationstylelanguage/download/bibtex?submissionId=39493&publicationId=37751
     image: ./assets/img/paper1_overall.png
     notes: Oral Presentation
