@@ -46,7 +46,7 @@
         <h1 id="name"></h1>
 
         <script>
-          const names = ["李忆唐", "Yitang Li"];
+          const names = ["Zhilong Mao", "毛智龙"];
           const nameElement = document.getElementById("name");
           let index = 0;
 
@@ -57,7 +57,7 @@
           setInterval(function() {
             index = (index + 1) % names.length;  // 切换索引，0 和 1 之间循环
             nameElement.textContent = names[index];  // 更新显示的名字
-          }, 5000);  // 5000 毫秒 = 5 秒
+          }, 10000);  // 10000 毫秒 = 10 秒
         </script>
 
         {% if site.position %}
