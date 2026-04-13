@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Master's student in Artificial Intelligence at the Big Data and Decision Lab, National University of Defense Technology. My research focuses on making machine learning models continuously learn new concepts from limited data.
+I am a Master's student in Artificial Intelligence at the Laboratory for Big Data and Decision, National University of Defense Technology. My research focuses on making machine learning models continuously learn new concepts from limited data.
 
 ## Research Interests
 

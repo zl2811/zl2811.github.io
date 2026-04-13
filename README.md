@@ -1,11 +1,14 @@
 # Personal Academic Page
 
+[![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
+
+
 \[[English](README.md)\] | \[[简体中文](README_zh_Hans.md)\] | \[[繁體中文](README_zh_Hant.md)\]
 
 This repository contains the source code for my personal academic homepage, hosted via GitHub Pages.
 
 ## Academic Profile
-- **Institution:** Big Data and Decision Lab, Peking University
+- **Institution:** Laboratory for Big Data and Decision, National University of Defense Technology
 - **Position:** Master's Student in Artificial Intelligence
 - **Research Interests:** - Few-shot Class-incremental Learning
   - Machine Learning

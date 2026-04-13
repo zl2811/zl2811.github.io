@@ -1,5 +1,7 @@
 # 個人學術主頁
 
+[![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
+
 \[[English](README.md)\] | \[[简体中文](README_zh_Hans.md)\] | \[[繁體中文](README_zh_Hant.md)\]
 
 本倉庫包含我的個人學術主頁源代碼，透過 GitHub Pages 進行自動部署與託管。
