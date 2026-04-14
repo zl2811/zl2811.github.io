@@ -179,11 +179,19 @@ papertitle {
     papertitle {
     color:#eeeff0;
     }
-    .icon-button .icon-github,
-    .social-icons a .icon-github,
-    .github span {
-      color: #ffffff !important;
-      font-family: inherit !important;
+    .social-icons a { color: #dadbdf !important; }
+    .social-icons a:hover {
+        background-color: #dadbdf !important;
+        color: #20212b !important;
+        transform: scale(1.2);
+    }
+    .icon-button .icon-github, .social-icons a .icon-github, .github span {
+        color: #ffffff !important;
+        font-family: inherit !important;
+    }
+    .icon-button .icon-linkedin, .social-icons a .icon-linkedin, .linkedin span {
+        color: #3eb7f0 !important;
+        font-family: inherit !important;
     }
 
 }
@@ -370,7 +378,7 @@ header {
   text-align:center
 }
 
-
+header p { white-space: nowrap; }
 
 header ul {
   list-style:none;
@@ -529,10 +537,10 @@ footer {
   display: flex; 
   align-items: center;}
 
+
   header {
     padding:0;
   }
-
   header ul, header p.view {
     
   }
