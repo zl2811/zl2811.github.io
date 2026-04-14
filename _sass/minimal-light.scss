@@ -179,6 +179,12 @@ papertitle {
     papertitle {
     color:#eeeff0;
     }
+    .icon-button .icon-github,
+    .social-icons a .icon-github,
+    .github span {
+      color: #ffffff !important;
+      font-family: inherit !important;
+    }
 
 }
 
@@ -458,7 +464,7 @@ footer {
   text-align:center;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1300px) {
 
   .pub-row {
   display: flex; 
@@ -513,7 +519,7 @@ footer {
   
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1300px) {
   body {
     word-wrap:break-word;
     padding:15px;
