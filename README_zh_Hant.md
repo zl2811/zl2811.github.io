@@ -9,7 +9,8 @@
 ## 個人簡介
 - **機構：** 國防科技大學 大數據與決策實驗室
 - **職位：** 人工智能碩士研究生
-- **研究方向：** - 小樣本類增量學習 (Few-shot Class-incremental Learning)
+- **研究方向：**
+  - 小樣本類增量學習 (Few-shot Class-incremental Learning)
   - 機器學習 (Machine Learning)
 
 ## 主要修改說明
