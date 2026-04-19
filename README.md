@@ -10,7 +10,8 @@ This repository contains the source code for my personal academic homepage, host
 ## Academic Profile
 - **Institution:** Laboratory for Big Data and Decision, National University of Defense Technology
 - **Position:** Master's Student in Artificial Intelligence
-- **Research Interests:** - Few-shot Class-incremental Learning
+- **Research Interests:**
+  - Few-shot Class-incremental Learning
   - Machine Learning
 
 ## Key Modifications
