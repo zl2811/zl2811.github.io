@@ -9,7 +9,8 @@
 ## 个人简介
 - **机构：** 国防科技大学 大数据与决策实验室
 - **职位：** 人工智能硕士研究生
-- **研究方向：** - 小样本类增量学习 (Few-shot Class-incremental Learning)
+- **研究方向：**
+  - 小样本类增量学习 (Few-shot Class-incremental Learning)
   - 机器学习 (Machine Learning)
 
 ## 主要修改说明
