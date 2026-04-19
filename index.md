@@ -8,8 +8,8 @@ I am a Master's student in Artificial Intelligence at the Laboratory for Big Dat
 
 ## Research Interests
 
-- **Machine Learning:** Few-shot learning, incremental learning.
-- **Computer Vision:** image recognition.
+- **Machine Learning:** Few-shot learning, Class-incremental learning.
+- **Computer Vision:** Image recognition.
 
 
 ## News
