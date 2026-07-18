@@ -58,6 +58,7 @@
 
         <br><br>
         <div class="social-icons" aria-label="Academic profiles">
+          {% if site.email %}<a href="mailto:{{ site.email }}" aria-label="Email Zhilong Mao" title="Email"><i class="fas fa-envelope"></i></a>{% endif %}
           {% if site.google_scholar %}<a href="{{ site.google_scholar }}" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
           {% if site.cv_link %}<a href="{{ site.cv_link }}" aria-label="Curriculum vitae"><i class="ai ai-cv"></i></a>{% endif %}
           {% if site.github_link %}<a href="{{ site.github_link }}" aria-label="GitHub"><i class="fab fa-github"></i></a>{% endif %}
