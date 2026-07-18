@@ -4,16 +4,12 @@ layout: homepage
 
 ## About Me
 
-I am a Master's student in Artificial Intelligence at the Laboratory for Big Data and Decision, National University of Defense Technology. My research focuses on enabling machine learning systems to acquire new concepts from limited data while remaining reliable under distribution shifts and spurious correlations.
+I am a Master's student in Artificial Intelligence at the Laboratory for Big Data and Decision, National University of Defense Technology. My research focuses on making machine learning models continuously learn new concepts from limited data.
 
 ## Research Interests
 
-<div class="research-tags" aria-label="Research interests">
-  <span>Few-Shot Learning</span>
-  <span>Class-Incremental Learning</span>
-  <span>Causal Representation Learning</span>
-  <span>Image Recognition</span>
-</div>
+- **Machine Learning:** Few-shot learning and class-incremental learning.
+- **Computer Vision:** Causal representation learning and image recognition.
 
 ## News
 

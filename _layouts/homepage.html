@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
   <head>
+    <title>{{ site.title }} | {{ site.affiliation }}</title>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ site.title }}{% if site.affiliation %} | {{ site.affiliation }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
     {% if site.keywords %}<meta name="keywords" content="{{ site.keywords }}">{% endif %}
     {% if site.canonical %}<link rel="canonical" href="{{ site.canonical }}">{% endif %}
-
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ site.title }}">
-    <meta property="og:description" content="{{ site.description }}">
-    {% if site.canonical %}<meta property="og:url" content="{{ site.canonical }}">{% endif %}
-    {% if site.avatar %}<meta property="og:image" content="{{ site.canonical }}assets/img/avatar.png">{% endif %}
 
     <link rel="icon" media="(prefers-color-scheme: dark)" href="{{ site.favicon_dark }}" type="image/png">
     <link rel="icon" media="(prefers-color-scheme: light)" href="{{ site.favicon }}" type="image/png">
@@ -29,47 +24,58 @@
     {% endif %}
     {% if site.auto_dark_mode %}
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/publications.css">
     {% else %}
     <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
+    <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
   </head>
   <body>
-    <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="wrapper">
-      <header class="profile-card">
+      <header>
         {% if site.avatar %}
-        <div class="image avatar"><img src="{{ site.avatar }}" alt="Portrait of Zhilong Mao" width="148" height="148"></div>
+        <span class="image avatar"><img src="{{ site.avatar }}" alt="Portrait of Zhilong Mao"></span>
         {% endif %}
 
-        <h1 class="profile-name">Zhilong Mao <span lang="zh-CN">毛智龙</span></h1>
+        <h1 id="name">Zhilong Mao</h1>
+        <script>
+          const names = ["Zhilong Mao", "毛智龙"];
+          const nameElement = document.getElementById("name");
+          let nameIndex = 0;
+          setInterval(function () {
+            nameIndex = (nameIndex + 1) % names.length;
+            nameElement.textContent = names[nameIndex];
+          }, 10000);
+        </script>
 
-        {% if site.position %}<p class="position">{{ site.position }}</p>{% endif %}
+        {% if site.position %}
+        <position style="font-size: 1.10rem;">{{ site.position }}</position><br>
+        {% endif %}
         {% if site.affiliation %}
-        <p class="affiliation"><a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a></p>
+        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a><br>
         {% endif %}
-        {% if site.email %}<p class="email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>{% endif %}
+        {% if site.email %}<email>{{ site.email }}</email>{% endif %}
 
-        <div class="social-icons" aria-label="Academic and social profiles">
-          {% if site.google_scholar %}<a href="{{ site.google_scholar }}" aria-label="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>{% endif %}
-          {% if site.cv_link %}<a href="{{ site.cv_link }}" aria-label="Curriculum vitae"><i class="ai ai-cv" aria-hidden="true"></i></a>{% endif %}
-          {% if site.github_link %}<a href="{{ site.github_link }}" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>{% endif %}
-          {% if site.linkedin %}<a href="{{ site.linkedin }}" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>{% endif %}
-          {% if site.twitter %}<a href="{{ site.twitter }}" aria-label="X"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>{% endif %}
+        <br><br>
+        <div class="social-icons" aria-label="Academic profiles">
+          {% if site.google_scholar %}<a href="{{ site.google_scholar }}" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
+          {% if site.cv_link %}<a href="{{ site.cv_link }}" aria-label="Curriculum vitae"><i class="ai ai-cv"></i></a>{% endif %}
+          {% if site.github_link %}<a href="{{ site.github_link }}" aria-label="GitHub"><i class="fab fa-github"></i></a>{% endif %}
+          {% if site.linkedin %}<a href="{{ site.linkedin }}" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
+          {% if site.twitter %}<a href="{{ site.twitter }}" aria-label="X"><i class="fab fa-x-twitter"></i></a>{% endif %}
         </div>
-
-        <nav class="profile-nav" aria-label="Page sections">
-          <a href="#publications">Publications</a>
-          <a href="#selected-awards">Awards</a>
-        </nav>
+        <br>
       </header>
 
-      <main id="main-content">
+      <section>
         {{ content }}
 
+        <br>
         {% if site.enable_footnote %}
-        <p class="site-footnote"><small>Powered by Jekyll and the <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
+        <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
         {% endif %}
-      </main>
+      </section>
+      <footer></footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}" defer></script>
   </body>

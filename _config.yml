@@ -23,7 +23,7 @@ enable_footnote: true
 
 # Appearance
 auto_dark_mode: true
-font: "Sans Serif"
+font: "Serif"
 
 # Theme
 remote_theme: yaoyao-liu/minimal-light
