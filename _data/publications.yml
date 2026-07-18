@@ -1,16 +1,4 @@
 main:
-  - title: Prototype-based Causal Intervention for Multi-Label Image Classification
-    authors: Yanmin Li, <strong>Zhilong Mao</strong>, Mao Wang, Lihua Liu, Jibing Wu, Weidong Bao
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2026.
-    pdf: https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Prototype-based_Causal_Intervention_for_Multi-Label_Image_Classification_CVPR_2026_paper.pdf
-    code: https://github.com/JustinLiam/ProCI
-    bibtex: ./assets/bib/proci_cvpr2026.bib
-    image: ./assets/img/paper3_overall.png
-    image_alt: Overview of the ProCI framework
-    notes: Poster
-    note_class: poster
-
   - title: Dynamic Pseudo-Label Assignment and Consistent Prototypical Learning for Few-Shot Class-Incremental Learning
     authors: <strong>Zhilong Mao</strong>, Hang Zhang, Yanmin Li, Lihua Liu, Jibing Wu, Mao Wang
     conference_short: CVPR Findings
@@ -18,10 +6,22 @@ main:
     pdf: https://openaccess.thecvf.com/content/CVPR2026F/papers/Mao_Dynamic_Pseudo-Label_Assignment_and_Consistent_Prototypical_Learning_for_Few-Shot_Class-Incremental_CVPRF_2026_paper.pdf
     code: https://github.com/zl2811/DPCL
     bibtex: ./assets/bib/dpcl_cvprf2026.bib
-    image: ./assets/img/paper2_overall.png
+    image: ./assets/img/paper3_overall.png
     image_alt: Overview of the DPCL framework
     notes: Findings
     note_class: findings
+
+  - title: Prototype-based Causal Intervention for Multi-Label Image Classification
+    authors: Yanmin Li, <strong>Zhilong Mao</strong>, Mao Wang, Lihua Liu, Jibing Wu, Weidong Bao
+    conference_short: CVPR
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2026.
+    pdf: https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Prototype-based_Causal_Intervention_for_Multi-Label_Image_Classification_CVPR_2026_paper.pdf
+    code: https://github.com/JustinLiam/ProCI
+    bibtex: ./assets/bib/proci_cvpr2026.bib
+    image: ./assets/img/paper2_overall.png
+    image_alt: Overview of the ProCI framework
+    notes: Poster
+    note_class: poster
 
   - title: A Causal Target for Learning to Defer under Hidden Confounding
     authors: Yanmin Li*, Lihua Liu*, Xin Wang, <strong>Zhilong Mao</strong>, Jibing Wu, Weidong Bao

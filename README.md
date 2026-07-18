@@ -4,55 +4,38 @@
 
 [[English](README.md)] | [[简体中文](README_zh_Hans.md)] | [[繁體中文](README_zh_Hant.md)]
 
-This repository contains the source code for [Zhilong Mao's academic homepage](https://zl2811.github.io/), hosted with GitHub Pages.
+This repository contains the source code for [my academic homepage](https://zl2811.github.io/). I am a Master's student in Artificial Intelligence at the Laboratory for Big Data and Decision, National University of Defense Technology. My research primarily focuses on **Few-Shot Class-Incremental Learning**, continual learning, and computer vision.
 
-## Academic Profile
+## Quick Start
 
-- **Institution:** Laboratory for Big Data and Decision, National University of Defense Technology
-- **Position:** Master's Student in Artificial Intelligence
-- **Research Interests:** Few-shot learning, class-incremental learning, causal representation learning, and image recognition
+1. [Fork this repository](https://github.com/zl2811/zl2811.github.io/fork).
+2. Rename the fork to `<your-username>.github.io`.
+3. Edit `_config.yml` to replace the name, affiliation, email, avatar, CV, and social links.
+4. Edit `index.md` for the biography, research interests, and news; edit `_data/publications.yml` for publications.
+5. Put avatars and paper figures in `assets/img/`, then commit and push to `main`.
 
-## Featured Publications
+If the site is not published automatically, open **Settings → Pages**, select **Deploy from a branch**, and choose `main` with the `/ (root)` folder. The homepage will then be available at `https://<your-username>.github.io/`.
 
-- **CVPR 2026 Poster:** [Prototype-based Causal Intervention for Multi-Label Image Classification](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Prototype-based_Causal_Intervention_for_Multi-Label_Image_Classification_CVPR_2026_paper.html) — [Code](https://github.com/JustinLiam/ProCI)
-- **CVPR 2026 Findings:** [Dynamic Pseudo-Label Assignment and Consistent Prototypical Learning for Few-Shot Class-Incremental Learning](https://openaccess.thecvf.com/content/CVPR2026F/html/Mao_Dynamic_Pseudo-Label_Assignment_and_Consistent_Prototypical_Learning_for_Few-Shot_Class-Incremental_CVPRF_2026_paper.html) — [Code](https://github.com/zl2811/DPCL)
-- **AAAI 2026 Oral:** [A Causal Target for Learning to Defer under Hidden Confounding](https://ojs.aaai.org/index.php/AAAI/article/view/39493) — [Code](https://github.com/JustinLiam/CTLD)
+## Local Preview (Optional)
 
-## Homepage Features
-
-- Responsive academic layout for desktop and mobile devices
-- Automatic light and dark color schemes
-- Publication cards with full-resolution framework figures and paper/code links
-- Accessible navigation, semantic markup, and reduced-motion support
-- Updated metadata for search engines and social sharing
-
-## Repository Structure
-
-- `_config.yml` — profile, links, metadata, and theme settings
-- `index.md` — biography, research interests, and news
-- `_data/publications.yml` — publication metadata and resource links
-- `_includes/` — publication and award sections
-- `_layouts/homepage.html` — page structure and profile sidebar
-- `_sass/` and `assets/css/` — responsive light/dark styling
-- `assets/img/` — avatar, icons, and publication figures
-
-## Maintenance
-
-1. Update profile metadata and social links in `_config.yml`.
-2. Edit biography, research interests, and news in `index.md`.
-3. Add publication figures to `assets/img/`, then update `_data/publications.yml`.
-4. Update awards in `_includes/selected_awards.md`.
-5. Replace the avatar or favicons in `assets/img/` when needed.
-
-To preview locally with Ruby and Bundler installed:
+With Ruby and Bundler installed:
 
 ```bash
 bundle install
 bundle exec jekyll serve
 ```
 
-GitHub Pages deploys the homepage from the `main` branch.
+Open `http://localhost:4000` in a browser.
 
-## Acknowledgements
+## Key Files
 
-The homepage is based on the [Minimal Light](https://github.com/yaoyao-liu/minimal-light) Jekyll theme.
+- `_config.yml` — profile, links, metadata, and appearance
+- `index.md` — biography, research interests, and news
+- `_data/publications.yml` — publication metadata and resources
+- `_includes/selected_awards.md` — awards
+- `assets/img/` — avatar, QR code, favicons, and paper figures
+- `_layouts/` and `_sass/` — layout and styling
+
+## Credits
+
+Built with the [Minimal Light](https://github.com/yaoyao-liu/minimal-light) Jekyll theme and hosted by GitHub Pages.
