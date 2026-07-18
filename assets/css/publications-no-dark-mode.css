@@ -86,11 +86,11 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications .pub-note { color: #5f6368; }
 
-.publications .pub-note--poster { color: #00796b; }
+.publications .pub-note--poster { color: #00796b !important; }
 
-.publications .pub-note--findings { color: #6f42c1; }
+.publications .pub-note--findings { color: #6f42c1 !important; }
 
-.publications .pub-note--oral-presentation { color: #c2410c; }
+.publications .pub-note--oral { color: #c2410c !important; }
 
 @media print, screen and (max-width: 640px) {
   .publications .pub-row { display: block; }

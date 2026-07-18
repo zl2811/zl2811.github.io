@@ -9,6 +9,7 @@ main:
     image: ./assets/img/paper3_overall.png
     image_alt: Overview of the ProCI framework
     notes: Poster
+    note_class: poster
 
   - title: Dynamic Pseudo-Label Assignment and Consistent Prototypical Learning for Few-Shot Class-Incremental Learning
     authors: <strong>Zhilong Mao</strong>, Hang Zhang, Yanmin Li, Lihua Liu, Jibing Wu, Mao Wang
@@ -20,6 +21,7 @@ main:
     image: ./assets/img/paper2_overall.png
     image_alt: Overview of the DPCL framework
     notes: Findings
+    note_class: findings
 
   - title: A Causal Target for Learning to Defer under Hidden Confounding
     authors: Yanmin Li*, Lihua Liu*, Xin Wang, <strong>Zhilong Mao</strong>, Jibing Wu, Weidong Bao
@@ -31,3 +33,4 @@ main:
     image: ./assets/img/paper1_overall.png
     image_alt: Overview of the CTLD framework
     notes: Oral Presentation
+    note_class: oral

@@ -93,17 +93,17 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications .pub-note { color: #5f6368; }
 
-.publications .pub-note--poster { color: #00796b; }
+.publications .pub-note--poster { color: #00796b !important; }
 
-.publications .pub-note--findings { color: #6f42c1; }
+.publications .pub-note--findings { color: #6f42c1 !important; }
 
-.publications .pub-note--oral-presentation { color: #c2410c; }
+.publications .pub-note--oral { color: #c2410c !important; }
 
 @media (prefers-color-scheme: dark) {
   .publications .pub-note { color: #cbd5e1; }
-  .publications .pub-note--poster { color: #4fd1c5; }
-  .publications .pub-note--findings { color: #c4b5fd; }
-  .publications .pub-note--oral-presentation { color: #fb923c; }
+  .publications .pub-note--poster { color: #4fd1c5 !important; }
+  .publications .pub-note--findings { color: #c4b5fd !important; }
+  .publications .pub-note--oral { color: #fb923c !important; }
 }
 
 @media print, screen and (max-width: 640px) {
