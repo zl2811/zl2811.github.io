@@ -84,7 +84,13 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li .abbr abbr { top: 10px; left: 10px; }
 
-.publications .pub-note { color: #e74d3c; }
+.publications .pub-note { color: #5f6368; }
+
+.publications .pub-note--poster { color: #00796b; }
+
+.publications .pub-note--findings { color: #6f42c1; }
+
+.publications .pub-note--oral-presentation { color: #c2410c; }
 
 @media print, screen and (max-width: 640px) {
   .publications .pub-row { display: block; }
