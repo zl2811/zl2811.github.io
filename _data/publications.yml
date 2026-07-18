@@ -1,22 +1,33 @@
 main:
+  - title: Prototype-based Causal Intervention for Multi-Label Image Classification
+    authors: Yanmin Li, <strong>Zhilong Mao</strong>, Mao Wang, Lihua Liu, Jibing Wu, Weidong Bao
+    conference_short: CVPR
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2026.
+    pdf: https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Prototype-based_Causal_Intervention_for_Multi-Label_Image_Classification_CVPR_2026_paper.pdf
+    code: https://github.com/JustinLiam/ProCI
+    page: https://openaccess.thecvf.com/content/CVPR2026/html/Li_Prototype-based_Causal_Intervention_for_Multi-Label_Image_Classification_CVPR_2026_paper.html
+    image: ./assets/img/paper3_overall.png
+    image_alt: Overview of the ProCI framework
+    notes: Poster
+
+  - title: Dynamic Pseudo-Label Assignment and Consistent Prototypical Learning for Few-Shot Class-Incremental Learning
+    authors: <strong>Zhilong Mao</strong>, Hang Zhang, Yanmin Li, Lihua Liu, Jibing Wu, Mao Wang
+    conference_short: CVPR Findings
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR) Findings</strong>, 2026.
+    pdf: https://openaccess.thecvf.com/content/CVPR2026F/papers/Mao_Dynamic_Pseudo-Label_Assignment_and_Consistent_Prototypical_Learning_for_Few-Shot_Class-Incremental_CVPRF_2026_paper.pdf
+    code: https://github.com/zl2811/DPCL
+    page: https://openaccess.thecvf.com/content/CVPR2026F/html/Mao_Dynamic_Pseudo-Label_Assignment_and_Consistent_Prototypical_Learning_for_Few-Shot_Class-Incremental_CVPRF_2026_paper.html
+    image: ./assets/img/paper2_overall.png
+    image_alt: Overview of the DPCL framework
+    notes: Findings
 
   - title: A Causal Target for Learning to Defer under Hidden Confounding
     authors: Yanmin Li*, Lihua Liu*, Xin Wang, <strong>Zhilong Mao</strong>, Jibing Wu, Weidong Bao
     conference_short: AAAI
-    conference: Association for the Advancement of Artificial Intelligence <strong>(AAAI)</strong>, 2026.
+    conference: AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2026.
     pdf: https://ojs.aaai.org/index.php/AAAI/article/view/39493/43454
     code: https://github.com/JustinLiam/CTLD
-    bibtex: https://ojs.aaai.org/index.php/AAAI/citationstylelanguage/download/bibtex?submissionId=39493&publicationId=37751
+    page: https://ojs.aaai.org/index.php/AAAI/article/view/39493
     image: ./assets/img/paper1_overall.png
+    image_alt: Overview of the CTLD framework
     notes: Oral Presentation
-
-#  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-#    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-#    conference_short: CVPR
-#    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-#    pdf: https://arxiv.org/pdf/2002.10211.pdf
-#    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-#    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-#    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-#    notes: Oral Presentation/Early Accept
-#    image: ./assets/img/teaser_example.png

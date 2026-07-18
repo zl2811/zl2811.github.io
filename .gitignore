@@ -5,3 +5,14 @@ Gemfile.lock
 .DS_Store
 .jekyll-cache
 git-update.sh
+
+# Local editor and agent files
+.idea/
+.vscode/
+.agent/
+.agents/
+
+# Local notes and scratch files
+hello.py
+ppt.md
+ppt_biaoda.md

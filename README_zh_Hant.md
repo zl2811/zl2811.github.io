@@ -1,40 +1,58 @@
-# 個人學術主頁
+# 毛智龍 — 學術個人主頁
 
-[![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
+[![授權條款](https://img.shields.io/github/license/zl2811/zl2811.github.io?style=flat-square&logo=creative-commons&color=1769aa)](LICENSE)
 
-\[[English](README.md)\] | \[[简体中文](README_zh_Hans.md)\] | \[[繁體中文](README_zh_Hant.md)\]
+[[English](README.md)] | [[简体中文](README_zh_Hans.md)] | [[繁體中文](README_zh_Hant.md)]
 
-本倉庫包含我的個人學術主頁源代碼，透過 GitHub Pages 進行自動部署與託管。
+本儲存庫包含[毛智龍學術個人主頁](https://zl2811.github.io/)的原始碼，使用 GitHub Pages 託管。
 
-## 個人簡介
-- **機構：** 國防科技大學 大數據與決策實驗室
-- **職位：** 人工智能碩士研究生
-- **研究方向：**
-  - 小樣本類增量學習 (Few-shot Class-incremental Learning)
-  - 機器學習 (Machine Learning)
+## 學術簡介
 
-## 主要修改說明
-- **研究方向：** 在「關於我」和「新聞」之間新增了專門的 Research Interests 板塊。
-- **獲獎情況：** 將原有的「服務 (Service)」板塊替換為「獲獎情況 (Selected Awards)」。
-- **社交連結：** 僅展示 GitHub；Google Scholar、CV、X 和 LinkedIn 資訊已在配置中保留（已註解隱藏），便於後續隨時啟用。
+- **單位：** 國防科技大學大數據與決策實驗室
+- **身分：** 人工智慧專業碩士研究生
+- **研究方向：** 小樣本學習、類別增量學習、因果表徵學習與圖像識別
 
-## 維護手冊
+## 代表性論文
 
-### 1. 修改基本資訊與社交連結
-編輯 `_config.yml` 檔案。如需在未來啟用其他連結，只需刪掉對應程式碼行首的 `#` 註解符號即可。
+- **CVPR 2026 Poster：** [Prototype-based Causal Intervention for Multi-Label Image Classification](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Prototype-based_Causal_Intervention_for_Multi-Label_Image_Classification_CVPR_2026_paper.html) — [程式碼](https://github.com/JustinLiam/ProCI)
+- **CVPR 2026 Findings：** [Dynamic Pseudo-Label Assignment and Consistent Prototypical Learning for Few-Shot Class-Incremental Learning](https://openaccess.thecvf.com/content/CVPR2026F/html/Mao_Dynamic_Pseudo-Label_Assignment_and_Consistent_Prototypical_Learning_for_Few-Shot_Class-Incremental_CVPRF_2026_paper.html) — [程式碼](https://github.com/zl2811/DPCL)
+- **AAAI 2026 Oral：** [A Causal Target for Learning to Defer under Hidden Confounding](https://ojs.aaai.org/index.php/AAAI/article/view/39493) — [程式碼](https://github.com/JustinLiam/CTLD)
 
-### 2. 修改首頁文字內容
-編輯 `index.md` 來更新「關於我 (About Me)」、「研究方向 (Research Interests)」以及「新聞動態 (News)」。
+## 主頁功能
 
-### 3. 更新論文
-1. 將論文的預覽截圖放入 `assets/img/` 資料夾。
-2. 在 `_data/publications.yml` 中添加或修改論文的具體資訊。
+- 適配桌面與行動裝置的響應式學術主頁版面
+- 依照系統設定自動切換淺色與深色模式
+- 完整展示論文框架圖，並提供論文、程式碼及專案頁面連結
+- 支援鍵盤導覽、語意化標籤與減少動畫偏好
+- 完善搜尋引擎及社群分享中繼資料
 
-### 4. 更新獲獎資訊
-編輯 `_includes/selected_awards.md` 檔案，列出你的最新榮譽與獎項。
+## 儲存庫結構
 
-### 5. 更換頭像與圖標
-替換 `assets/img/` 目錄下的 `avatar.png`（個人頭像）和 `favicon.png`（瀏覽器標籤頁小圖標）。
+- `_config.yml` — 個人資訊、連結、中繼資料與主題設定
+- `index.md` — 個人簡介、研究方向與新聞動態
+- `_data/publications.yml` — 論文資訊與資源連結
+- `_includes/` — 論文與獲獎情況元件
+- `_layouts/homepage.html` — 頁面結構與個人資訊側欄
+- `_sass/` 和 `assets/css/` — 響應式淺色/深色樣式
+- `assets/img/` — 頭像、圖示與論文框架圖
+
+## 維護說明
+
+1. 在 `_config.yml` 中更新個人資訊和社群連結。
+2. 在 `index.md` 中更新個人簡介、研究方向與新聞。
+3. 將論文框架圖放入 `assets/img/`，再更新 `_data/publications.yml`。
+4. 在 `_includes/selected_awards.md` 中更新獲獎情況。
+5. 如有需要，替換 `assets/img/` 中的頭像與網站圖示。
+
+安裝 Ruby 與 Bundler 後，可透過以下命令在本機預覽：
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+GitHub Pages 會從 `main` 分支自動部署主頁。
 
 ## 致謝
-本網站基於 [Minimal Light](https://github.com/yaoyao-liu/minimal-light) 主題修改構建。
+
+本主頁基於 [Minimal Light](https://github.com/yaoyao-liu/minimal-light) Jekyll 主題建置。

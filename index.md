@@ -4,26 +4,22 @@ layout: homepage
 
 ## About Me
 
-I am a Master's student in Artificial Intelligence at the Laboratory for Big Data and Decision, National University of Defense Technology. My research focuses on making machine learning models continuously learn new concepts from limited data.
+I am a Master's student in Artificial Intelligence at the Laboratory for Big Data and Decision, National University of Defense Technology. My research focuses on enabling machine learning systems to acquire new concepts from limited data while remaining reliable under distribution shifts and spurious correlations.
 
 ## Research Interests
 
-- **Machine Learning:** Few-shot learning, Class-incremental learning.
-- **Computer Vision:** Image recognition.
-
+<div class="research-tags" aria-label="Research interests">
+  <span>Few-Shot Learning</span>
+  <span>Class-Incremental Learning</span>
+  <span>Causal Representation Learning</span>
+  <span>Image Recognition</span>
+</div>
 
 ## News
 
-- **[Feb. 2026]** Our paper about Few-Shot Class-Incremental Learning is accepted to CVPR 2026 FINDINGS.
-- **[Feb. 2026]** Our paper about Causal Representation Learning is accepted to CVPR 2026.
-
-[//]: # (- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.)
-
-[//]: # (- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!)
-
-[//]: # (- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.)
-
-[//]: # (- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.)
+- **[Jul. 2026]** Two papers have been submitted to AAAI 2027.
+- **[Feb. 2026]** Our paper on few-shot class-incremental learning was accepted to CVPR 2026 Findings.
+- **[Feb. 2026]** Our paper on prototype-based causal intervention was accepted to CVPR 2026 as a poster.
 
 {% include_relative _includes/publications.md %}
 
