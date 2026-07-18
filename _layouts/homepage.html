@@ -57,13 +57,16 @@
         {% if site.email %}<email>{{ site.email }}</email>{% endif %}
 
         <br><br>
-        <div class="social-icons" aria-label="Academic profiles">
+        <div class="social-icons" aria-label="Academic and contact profiles">
+          {% if site.cv_link %}<a href="{{ site.cv_link }}" aria-label="Curriculum vitae" title="CV" target="_blank" rel="noopener"><i class="ai ai-cv"></i></a>{% endif %}
+          {% if site.github_link %}<a href="{{ site.github_link }}" aria-label="GitHub" title="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>{% endif %}
+          {% if site.wechat_qr %}
+          <span class="wechat-icon">
+            <a href="{{ site.wechat_qr }}" aria-label="Open WeChat QR code" title="WeChat" target="_blank" rel="noopener"><i class="fab fa-weixin"></i></a>
+            <span class="wechat-qr-popup" aria-hidden="true"><img src="{{ site.wechat_qr }}" alt="" loading="lazy" decoding="async"></span>
+          </span>
+          {% endif %}
           {% if site.email %}<a href="mailto:{{ site.email }}" aria-label="Email Zhilong Mao" title="Email"><i class="fas fa-envelope"></i></a>{% endif %}
-          {% if site.google_scholar %}<a href="{{ site.google_scholar }}" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
-          {% if site.cv_link %}<a href="{{ site.cv_link }}" aria-label="Curriculum vitae"><i class="ai ai-cv"></i></a>{% endif %}
-          {% if site.github_link %}<a href="{{ site.github_link }}" aria-label="GitHub"><i class="fab fa-github"></i></a>{% endif %}
-          {% if site.linkedin %}<a href="{{ site.linkedin }}" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
-          {% if site.twitter %}<a href="{{ site.twitter }}" aria-label="X"><i class="fab fa-x-twitter"></i></a>{% endif %}
         </div>
         <br>
       </header>

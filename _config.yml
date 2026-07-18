@@ -11,7 +11,9 @@ description: Academic homepage of Zhilong Mao, a researcher in few-shot learning
 canonical: https://zl2811.github.io/
 
 # Links
+cv_link: https://docs.google.com/document/d/1h4gtP4R8yYCK2FPlQ885y6qCOt2NKGel33hRMkhgtNA/edit?tab=t.0
 github_link: https://github.com/zl2811
+wechat_qr: ./assets/img/wechat_qr.jpg
 
 # Images
 avatar: ./assets/img/avatar.png

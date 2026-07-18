@@ -17,6 +17,49 @@
 .social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
     color:black;
     transform: scale(1.2)}
+
+.wechat-icon{
+  position:relative;
+  display:inline-block;
+  vertical-align:top;
+  line-height:0;
+}
+
+.wechat-qr-popup{
+  position:absolute;
+  left:50%;
+  bottom:calc(100% + .65rem);
+  width:160px;
+  padding:7px;
+  background:#fff;
+  border:1px solid rgba(0,0,0,.14);
+  border-radius:8px;
+  box-shadow:0 8px 24px rgba(0,0,0,.2);
+  opacity:0;
+  visibility:hidden;
+  pointer-events:none;
+  transform:translateX(-50%) translateY(.3rem);
+  transition:opacity .16s ease, transform .16s ease, visibility .16s ease;
+  z-index:30;
+}
+
+.wechat-qr-popup img{
+  display:block;
+  width:100%;
+  height:auto;
+  border-radius:4px;
+}
+
+.wechat-icon:hover .wechat-qr-popup,
+.wechat-icon:focus-within .wechat-qr-popup{
+  opacity:1;
+  visibility:visible;
+  transform:translateX(-50%) translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce){
+  .wechat-qr-popup{transition:none;}
+}
     /*
     .social-icons a:after {
         content: '';
