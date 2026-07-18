@@ -60,12 +60,7 @@
         <div class="social-icons" aria-label="Academic and contact profiles">
           {% if site.cv_link %}<a href="{{ site.cv_link }}" aria-label="Curriculum vitae" title="CV" target="_blank" rel="noopener"><i class="ai ai-cv"></i></a>{% endif %}
           {% if site.github_link %}<a href="{{ site.github_link }}" aria-label="GitHub" title="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>{% endif %}
-          {% if site.wechat_qr %}
-          <span class="wechat-icon">
-            <a href="{{ site.wechat_qr }}" aria-label="Open WeChat QR code" title="WeChat" target="_blank" rel="noopener"><i class="fab fa-weixin"></i></a>
-            <span class="wechat-qr-popup" aria-hidden="true"><img src="{{ site.wechat_qr }}" alt="" loading="lazy" decoding="async"></span>
-          </span>
-          {% endif %}
+          {% if site.wechat_qr %}<a href="{{ '/wechat/' | relative_url }}" aria-label="WeChat QR code" title="WeChat"><i class="fab fa-weixin"></i></a>{% endif %}
           {% if site.email %}<a href="mailto:{{ site.email }}" aria-label="Email Zhilong Mao" title="Email"><i class="fas fa-envelope"></i></a>{% endif %}
         </div>
         <br>
